@@ -1,0 +1,74 @@
+/* ============================================================
+   CS2623 SSP01 - main.css
+   Author: Johnston, Kaden
+   ============================================================
+   COLORS
+   Background: #FFFFFF (white)
+   Header:     #F1F3F5 (off-white)
+   Text:       #1F2937 (charcoal)
+   Nav buttons: #F1F3F5 (off-white)
+   Footer:     #EEF1F5 (light gray)
+   Links:      #1D3F73 (dark blue)
+   ============================================================
+   TYPOGRAPHY
+   Body:    0.9em Arial Narrow
+   Headers: 1.98em Arial Narrow
+   Nav:     0.85em Arial Narrow
+   ============================================================ */
+
+body {
+    background-color: #FFFFFF;
+    color: #1F2937;
+    font: 0.9em "Arial Narrow", Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #F1F3F5;
+    color: #142B55;
+    padding: 1em;
+}
+
+header h1 {
+    font: 1.98em "Arial Narrow", Arial, sans-serif;
+    margin: 0;
+}
+
+#top-nav {
+    padding: 0.5em 1em;
+}
+
+#top-nav a {
+    background-color: #F1F3F5;
+    color: #142B55;
+    display: inline-block;
+    font: 0.85em "Arial Narrow", Arial, sans-serif;
+    margin: 0.2em;
+    padding: 0.4em 0.8em;
+    text-decoration: none;
+}
+
+#top-nav a:hover {
+    background-color: #E3E8EF;
+}
+
+main {
+    padding: 1em;
+}
+
+footer {
+    background-color: #EEF1F5;
+    padding: 1em;
+}
+
+a:link {
+    color: #1D3F73;
+}
+
+a:visited {
+    color: #1D3F73;
+}
+
+a:active {
+    color: #142B55;
+}
