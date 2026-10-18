@@ -1,0 +1,76 @@
+/* ============================================================
+   CS2623 SSP02 - table.css
+   Author: Johnston, Kaden
+   ============================================================
+   COLORS
+   Table header:  #1D3F73 (dark blue)
+   Header text:   #FFFFFF (white)
+   Even rows:     #F1F3F5 (off-white)
+   Odd rows:      #FFFFFF (white)
+   Cell borders:  #E3E8EF (pale blue-gray)
+   Caption:       #142B55 (deep navy)
+   Left nav:      #EEF1F5 (light gray)
+   Left nav edge: #E3E8EF (pale blue-gray)
+   ============================================================
+   TYPOGRAPHY
+   Table: Arial Narrow
+   ============================================================ */
+
+#page-wrapper {
+    display: flex;
+}
+
+#left-nav {
+    background-color: #EEF1F5;
+    border-right: 1px solid #E3E8EF;
+    min-width: 12em;
+    padding: 1em;
+}
+
+#left-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#left-nav li {
+    margin-bottom: 0.6em;
+}
+
+#page-wrapper main {
+    flex: 1;
+}
+
+#weekly-planner {
+    border-collapse: collapse;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    margin: 1.5em auto;
+    width: 80%;
+}
+
+#weekly-planner caption {
+    color: #142B55;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+#weekly-planner th {
+    background-color: #1D3F73;
+    color: #FFFFFF;
+    padding: 0.6em 1em;
+    text-align: left;
+}
+
+#weekly-planner td {
+    border: 1px solid #E3E8EF;
+    padding: 0.5em 1em;
+}
+
+#weekly-planner tr:nth-child(odd) td {
+    background-color: #FFFFFF;
+}
+
+#weekly-planner tr:nth-child(even) td {
+    background-color: #F1F3F5;
+}
