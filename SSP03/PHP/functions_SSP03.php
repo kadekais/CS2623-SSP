@@ -41,6 +41,7 @@ function fn_tableRow($day, $details, $time)
     echo '</tr>';
 }
 
+// must use if/elseif (not match)
 function fn_dayOfWeek($day_num)
 {
     if ($day_num === 1) {
@@ -62,6 +63,7 @@ function fn_dayOfWeek($day_num)
     }
 }
 
+// must use switch
 function fn_dayDetails($day_num)
 {
     switch ($day_num) {
@@ -84,6 +86,7 @@ function fn_dayDetails($day_num)
     }
 }
 
+// must use if/elseif with ||
 function fn_dayTime($day_num)
 {
     if ($day_num === 1 || $day_num === 3) {
