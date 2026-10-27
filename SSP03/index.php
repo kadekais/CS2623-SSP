@@ -3,6 +3,7 @@
 require_once __DIR__ . '/PHP/functions_SSP03.php';
 require_once __DIR__ . '/PHP/include_header.php';
 
+// Apollo runs UTC, so force Central time
 $tz = new DateTimeZone('America/Chicago');
 $now = new DateTime('now', $tz);
 $current_day = (int) $now->format('N');
