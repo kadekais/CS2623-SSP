@@ -119,7 +119,7 @@ if ($method === 'POST') {
             <p><strong>Instructions:</strong><br>
                 <?php // htmlspecialchars first, then nl2br ?>
                 <?php echo nl2br(htmlspecialchars($instructions, ENT_QUOTES, 'UTF-8')); ?></p>
-        <?php endif; ?>
+        <?php endif ?>
     </main>
 </body>
 </html>
